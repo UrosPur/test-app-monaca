@@ -1,7 +1,9 @@
 <template>
     <v-ons-page>
         <v-ons-toolbar>
-            <div class="center">Text input</div>
+            <div class="center">
+                Text input
+            </div>
         </v-ons-toolbar>
 
         <v-ons-list>
