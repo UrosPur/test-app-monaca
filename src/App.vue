@@ -21,6 +21,9 @@
                 </div>
             </v-ons-list-item>
         </v-ons-list>
+        <div class="left">
+            <v-ons-button>button</v-ons-button>
+        </div>
     </v-ons-page>
 </template>
 <script>
