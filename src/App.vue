@@ -1,5 +1,10 @@
 <template>
-    <v-ons-page>
+    <v-ons-page
+            @init="onInit"
+            @show="onShow"
+            @hide="onHide"
+            @destroy="onDestroy"
+    >
         <v-ons-toolbar>
             <div class="center">
                 Text input
@@ -43,6 +48,30 @@
         methods: {
             alert() {
                 this.$ons.notification.alert('This is an Onsen UI alert notification test.');
+            },
+
+            onInit(){
+
+                console.log('Init')
+
+            },
+
+            onShow(){
+
+                console.log('show')
+
+            },
+
+            onHide(){
+
+                console.log('hide')
+
+            },
+
+            onDestroy(){
+
+                console.log('destroy')
+
             }
         },
 
